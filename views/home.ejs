@@ -1,0 +1,42 @@
+<html>
+
+    <head>
+        <title><%= title %></title>
+        <link rel="stylesheet" href="/css/home.css">        
+    </head>
+
+    <body>
+        <h1><i class="fas fa-syringe"></i>Hospital API</h1>
+        <h2>Website For Doctors & Paitents</h2>
+        <ol id="main_list">
+            <li>
+                <h3> Registration - Doctors</h3>
+                <ul class="inner_list">
+                    <li class="link"><b>https://hospital-api-app.herokuapp.com/api/v1/doctor/register</b></li>
+                </ul>
+            </li>
+
+            <li>
+                <h3> Registration - Patients </h3>
+                <ul class="inner_list">
+                    <li class="link"><b>https://hospital-api-app.herokuapp.com/api/v1/patients/register</b></li>
+                </ul>
+            </li>
+
+            <li>
+               <h3>  Create Reports </h3>
+                    <br>
+                        <span class="link"><b>https://hospital-api-app.herokuapp.com/api/v1/doctor/patients/:id/create_report</b></span>
+                    <br>
+            </li>
+
+            <li>
+               <h3> Check Reports </h3> 
+                <ul class="inner_list">
+                    <li class="link"><b>https://hospital-api-app.herokuapp.com/api/v1/home/patients/:id/all_reports</b></li>
+                </ul>
+            </li>
+
+        </ol>
+    </body>
+</html>

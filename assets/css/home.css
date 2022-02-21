@@ -1,0 +1,45 @@
+body{
+    background-color: lightsteelblue;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: 90px;
+    text-align: center;
+    color: darkblue;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50px;
+    text-align: center;
+    color: deepskyblue;
+}
+
+h3{
+    font-family: cursive;
+    font-size: 30px;
+    color: fuchsia;
+}
+
+.center{
+    text-align: center;
+}
+
+#heading{
+    color: white;
+    margin: 2%;
+    font-style: oblique;
+}
+
+#main_list li{
+    font-size: 1.25rem;
+}
+
+.inner_list{
+    list-style: none;
+}
+
+.link{
+    color: brown;
+}
